@@ -1,0 +1,18 @@
+@if (!tasks || tasks.length === 0) {
+  <p>No tasks added.</p>
+}
+@else {
+  @for (t of tasks; track t.Title) {
+    <h3>{{ t.Title }}</h3>
+
+    <input 
+      type="checkbox"
+      [checked]="t.Done"
+      (change)="onToggle(t)"
+    />
+
+    <button (click)="onDelete(t)">
+      Delete {{ t.Title }}
+    </button>
+  }
+}
