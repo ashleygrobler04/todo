@@ -1,0 +1,77 @@
+{
+  "configVersion": 1,
+  "timestamp": 1764846414910,
+  "index": "https://ashleygrobler04.github.io/todo/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "https://ashleygrobler04.github.io/todo/favicon.ico",
+        "https://ashleygrobler04.github.io/todo/index.html",
+        "https://ashleygrobler04.github.io/todo/main-WLHUGDUL.js",
+        "https://ashleygrobler04.github.io/todo/manifest.webmanifest",
+        "https://ashleygrobler04.github.io/todo/styles-5INURTSO.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "https://ashleygrobler04.github.io/todo/icons/icon-128x128.png",
+        "https://ashleygrobler04.github.io/todo/icons/icon-144x144.png",
+        "https://ashleygrobler04.github.io/todo/icons/icon-152x152.png",
+        "https://ashleygrobler04.github.io/todo/icons/icon-192x192.png",
+        "https://ashleygrobler04.github.io/todo/icons/icon-384x384.png",
+        "https://ashleygrobler04.github.io/todo/icons/icon-512x512.png",
+        "https://ashleygrobler04.github.io/todo/icons/icon-72x72.png",
+        "https://ashleygrobler04.github.io/todo/icons/icon-96x96.png"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "https://ashleygrobler04.github.io/todo/favicon.ico": "9c39f434fe1261f68c5e3eefdf734630d99c5670",
+    "https://ashleygrobler04.github.io/todo/icons/icon-128x128.png": "f912963bdc6d5a38d8f1dd0afbaab2ce8d657acb",
+    "https://ashleygrobler04.github.io/todo/icons/icon-144x144.png": "b155fd5f2fd5d2ea7760721063003c4cd95fd783",
+    "https://ashleygrobler04.github.io/todo/icons/icon-152x152.png": "eae6e0f0c8afb8aaae339e2a569b43e9238e5e6c",
+    "https://ashleygrobler04.github.io/todo/icons/icon-192x192.png": "15c4180454633880d98674aa7394656196c91584",
+    "https://ashleygrobler04.github.io/todo/icons/icon-384x384.png": "94a915751ef6c9282df9aea405ad679230631814",
+    "https://ashleygrobler04.github.io/todo/icons/icon-512x512.png": "1de182f76f7329dfa8f9fcdd1fdcdd695bea6a99",
+    "https://ashleygrobler04.github.io/todo/icons/icon-72x72.png": "aa88a6096bd973be7f6d7a5489bfa6bc2463f8c4",
+    "https://ashleygrobler04.github.io/todo/icons/icon-96x96.png": "7fb8f59c30ce2ff12c700321a0b39e14b3dc8f95",
+    "https://ashleygrobler04.github.io/todo/index.html": "0e9ff4b65c8bf77032034e1e245c780ffaae8773",
+    "https://ashleygrobler04.github.io/todo/main-WLHUGDUL.js": "f24423f9c5807d1344d5901c992c2083ed2e8cd1",
+    "https://ashleygrobler04.github.io/todo/manifest.webmanifest": "5b30ae115d43e4a13f5fb85db2f56a84fbd590a5",
+    "https://ashleygrobler04.github.io/todo/styles-5INURTSO.css": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ],
+  "navigationRequestStrategy": "performance"
+}
